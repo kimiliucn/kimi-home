@@ -371,6 +371,7 @@ export default {
             background: #fff;
             border-radius: 0.5rem;
             box-shadow: 0 0 4rem rgba(0, 0, 0, 0.05);
+            min-height: 184.8px;
             .col_title {
               margin-bottom: 1.5rem;
               font-size: 1.5rem;
