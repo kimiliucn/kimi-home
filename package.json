@@ -1,0 +1,34 @@
+{
+  "name": "kimi-home",
+  "version": "1.0.0",
+  "description": "kimi-home是一款开箱即用的开源项目主页模板，基于vuePress开发。以最少的配置帮助你专注于写作，享受Vue + WebPack + ElementUI + Markdown 的开发体验，高性能生成静态的HTML。 ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tkimiliu/kimi-home.git"
+  },
+  "author": "滔滔程序猿",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tkimiliu/kimi-home/issues"
+  },
+  "homepage": "https://github.com/Tkimiliu/kimi-home#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "async-validator": "^1.11.5",
+    "element-ui": "^2.15.6"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": []
+}
