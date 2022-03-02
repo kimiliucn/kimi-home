@@ -22,7 +22,7 @@ module.exports.zh_navConfig = [
             },
             {
                 text: 'Gitee',
-                link: 'https://gitee.com/Tkimiliu'
+                link: 'https://gitee.com/Tkimiliu/kimi-home'
             }
         ]
     }
@@ -52,7 +52,7 @@ module.exports.en_navConfig = [
             },
             {
                 text: 'Gitee',
-                link: 'https://gitee.com/Tkimiliu'
+                link: 'https://gitee.com/Tkimiliu/kimi-home'
             }
         ]
     }
