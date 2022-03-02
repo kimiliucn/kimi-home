@@ -1,0 +1,59 @@
+// 颜色
+$accentColor = #409eff //默认主题颜色
+$textColor = #444444 //默认字体颜色
+$borderColor = #eaecef //默认边框颜色
+$codeBgColor = #282c34 
+$arrowBgColor = #ccc
+$badgeTipColor = #42b983
+$badgeWarningColor = darken(#ffe564, 35%)
+$badgeErrorColor = #DA5961
+
+// 布局
+$navbarHeight = 3.6rem
+$sidebarWidth = 20rem
+$contentWidth = 750px
+$homePageWidth = 100% //首页页面宽度
+
+// 响应式变化点
+$MQNarrow = 959px
+$MQMobile = 719px
+$MQMobileNarrow = 419px
+
+
+// 导航栏
+.theme-container .navbar{
+    box-sizing: border-box;
+    box-shadow: 0 8px 24px -2px rgba(0,0,0,.05);
+    background-color: rgba(255,255,255,0.95)
+    border-bottom:none;
+    z-index:9999;
+}
+.navbar .links{
+    background-color: rgba(255,255,255,0);
+    .search-box input{
+        background: rgba(255,255,255,0) url(/assets/img/search.83621669.svg) 0.6rem 0.5rem no-repeat;
+    }
+    a{
+        line-height: 1.5rem;
+    }
+}
+// 导航栏划上效果
+.nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active{
+    color: $accentColor;
+}
+.page{
+    padding-bottom: 0;
+}
+// 设置Page最小高度
+.theme-container:not(.home-page) .page .theme-default-content{
+    min-height: calc(100vh - 9.3rem);
+}
+
+// 返回顶部
+.go-to-top{
+    height: 2rem;
+    padding:5px;
+    background: #fff;
+    border-radius: 5px;
+    bottom: 3.5rem !important;
+}
