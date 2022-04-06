@@ -45,12 +45,12 @@ easyMasters:
   content: Github（国际）下载。国外用户访问、下载速度较快。
   icon: /images/home/survery_03.png
   link_text: 查看源码
-  link_url: https://github.com/Tkimiliu/kimi-home
+  link_url: https://github.com/kimiliucn/kimi-home
 - title: Gitee
   content: Gitee（国内）下载。国内用户访问、下载速度较快。
   icon: /images/home/survery_04.png
   link_text: 查看源码
-  link_url: https://gitee.com/Tkimiliu
+  link_url: https://gitee.com/kimiliucn
 
 # 支持的功能
 supportFunTitle: 支持的功能

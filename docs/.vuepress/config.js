@@ -18,7 +18,7 @@ module.exports = {
         logo: "/images/logo/home.png",
         editLinks: true,
         sidebarDepth: 3, // 同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
-        repo: 'Tkimiliu/kimi-home', // 你的仓库
+        repo: 'kimiliucn/kimi-home', // 你的仓库
         repoLabel: 'GitHub', // 导航栏上的文本
         docsDir: 'docs',
         // 语言配置

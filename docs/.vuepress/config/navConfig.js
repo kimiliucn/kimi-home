@@ -48,11 +48,11 @@ module.exports.en_navConfig = [
         text: 'OpenSource',
         items: [{
                 text: 'GitHub',
-                link: 'https://github.com/Tkimiliu/kimi-home'
+                link: 'https://github.com/kimiliucn/kimi-home'
             },
             {
                 text: 'Gitee',
-                link: 'https://gitee.com/Tkimiliu/kimi-home'
+                link: 'https://gitee.com/kimiliucn/kimi-home'
             }
         ]
     }

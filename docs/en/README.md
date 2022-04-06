@@ -45,12 +45,12 @@ easyMasters:
   content: GitHub (International) download. Foreign users visit and download faster.
   icon: /images/home/survery_03.png
   link_text: View Source Code
-  link_url: https://github.com/Tkimiliu/kimi-home
+  link_url: https://github.com/kimiliucn/kimi-home
 - title: Gitee
   content: Gitee (domestic) download. Domestic users access and download faster.
   icon: /images/home/survery_04.png
   link_text: View Source Code
-  link_url: https://gitee.com/Tkimiliu
+  link_url: https://gitee.com/kimiliucn
 
 # 支持的功能
 supportFunTitle: Supported Functions
