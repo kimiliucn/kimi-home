@@ -18,11 +18,11 @@ module.exports.zh_navConfig = [
         text: '开源地址',
         items: [{
                 text: 'GitHub',
-                link: 'https://github.com/Tkimiliu/kimi-home'
+                link: 'https://github.com/kimiliucn/kimi-home'
             },
             {
                 text: 'Gitee',
-                link: 'https://gitee.com/Tkimiliu/kimi-home'
+                link: 'https://gitee.com/kimiliucn/kimi-home'
             }
         ]
     }
