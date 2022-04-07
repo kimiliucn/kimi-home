@@ -27,4 +27,4 @@ git clone https://gitee.com/kimiliucn/kimi-home.git
 
 ## 在线示例
 
-[点击浏览](http://47.93.83.192:2333/)
+[点击浏览](http://kimihome.kimiliu.cn)
