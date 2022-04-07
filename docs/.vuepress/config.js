@@ -3,6 +3,8 @@ const pluginsConfig=require("./config/pluginsConfig");
 const {zh_navConfig,en_navConfig} =require("./config/navConfig");
 
 module.exports = {
+    host:"localhost",//IP地址
+    port:8900,//端口号
     title: 'kimi-home', // 项目标题
     description: 'kimi-home是一款开箱即用的开源项目主页模板，基于vuePress开发。以最少的配置帮助你专注于写作，享受 Vue + WebPack + ElementUI + Markdown 的开发体验，高性能生成静态的HTML。 ', // 项目描述
     base: "/", // 项目根路径
