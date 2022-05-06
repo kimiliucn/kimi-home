@@ -5,33 +5,35 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+    <ClientOnly>
+      <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+    </ClientOnly>
+    
 
     <div class="sidebar-mask" @click="toggleSidebar(false)" />
 
-    <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
-      <template #top>
-        <slot name="sidebar-top" />
-      </template>
-      <template #bottom>
-        <slot name="sidebar-bottom" />
-      </template>
-    </Sidebar>
-
-    <Home v-if="$page.frontmatter.home" />
-
-    <Page v-else :sidebar-items="sidebarItems">
-      <template #top>
-        <!-- 顶部插槽 -->
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <!-- 底部插槽 -->
-        <slot name="page-bottom" />
-        <!-- 版权信息 -->
-        <div class="footer_copyright">{{footer_copyright}}</div>
-      </template>
-    </Page>
+    <ClientOnly>
+      <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
+        <template #top>
+          <slot name="sidebar-top" />
+        </template>
+        <template #bottom>
+          <slot name="sidebar-bottom" />
+        </template>
+      </Sidebar>
+    </ClientOnly>
+    <ClientOnly>
+      <Home v-if="$page.frontmatter.home" />
+      <Page v-else :sidebar-items="sidebarItems">
+        <template #top>
+          <slot name="page-top" />
+        </template>
+        <template #bottom>
+          <slot name="page-bottom" />
+          <div class="footer_copyright">{{footer_copyright}}</div>
+        </template>
+      </Page>
+    </ClientOnly>
   </div>
 </template>
 
