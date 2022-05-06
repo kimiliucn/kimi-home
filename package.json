@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/kimiliucn/kimi-home.git"
+    "url": "git+https://github.com/Tkimiliu/kimi-home.git"
   },
   "author": "滔滔程序猿",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kimiliucn/kimi-home/issues"
+    "url": "https://github.com/Tkimiliu/kimi-home/issues"
   },
-  "homepage": "https://github.com/kimiliucn/kimi-home#readme",
+  "homepage": "https://github.com/Tkimiliu/kimi-home#readme",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-medium-zoom": "^1.9.7",

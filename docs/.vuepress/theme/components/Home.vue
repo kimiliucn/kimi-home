@@ -16,7 +16,7 @@
       </p>
       <div class="button_wrapper">
         <app-link :to="data.actionLink" class="btn_temp home_button">{{data.actionText}}</app-link>
-        <app-link to="https://github.com/kimiliucn/kimi-home" class="btn_github home_button">GitHub</app-link>
+        <app-link to="https://github.com/Tkimiliu/kimi-home" class="btn_github home_button">GitHub</app-link>
       </div>
     </header>
 

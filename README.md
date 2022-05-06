@@ -3,16 +3,16 @@
 https://www.travis-ci.com/
 https://shields.io/
 -->
-[![GitHub issues](https://img.shields.io/github/issues/kimiliucn/kimi-home)](https://github.com/kimiliucn/kimi-home/issues)
-[![GitHub forks](https://img.shields.io/github/forks/kimiliucn/kimi-home)](https://github.com/kimiliucn/kimi-home/network)
-[![GitHub stars](https://img.shields.io/github/stars/kimiliucn/kimi-home)](https://github.com/kimiliucn/kimi-home/stargazers)
-[![GitHub license](https://img.shields.io/github/license/kimiliucn/kimi-home)](https://github.com/kimiliucn/kimi-home/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Tkimiliu/kimi-home)](https://github.com/Tkimiliu/kimi-home/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Tkimiliu/kimi-home)](https://github.com/Tkimiliu/kimi-home/network)
+[![GitHub stars](https://img.shields.io/github/stars/Tkimiliu/kimi-home)](https://github.com/Tkimiliu/kimi-home/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Tkimiliu/kimi-home)](https://github.com/Tkimiliu/kimi-home/blob/master/LICENSE)
 
 
 ## 开始
 ```bash
 # 下载
-git clone https://gitee.com/kimiliucn/kimi-home.git
+git clone https://github.com/Tkimiliu/kimi-home.git
 
 # 安装依赖
  npm install
