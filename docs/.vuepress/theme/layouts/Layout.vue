@@ -1,38 +1,5 @@
 <template>
-  <div
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
-
-    <div class="sidebar-mask" @click="toggleSidebar(false)" />
-
-    <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
-      <template #top>
-        <slot name="sidebar-top" />
-      </template>
-      <template #bottom>
-        <slot name="sidebar-bottom" />
-      </template>
-    </Sidebar>
-
-    <Home v-if="$page.frontmatter.home" />
-
-    <Page v-else :sidebar-items="sidebarItems">
-      <template #top>
-        <!-- 顶部插槽 -->
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <!-- 底部插槽 -->
-        <slot name="page-bottom" />
-        <!-- 版权信息 -->
-        <div class="footer_copyright">{{footer_copyright}}</div>
-      </template>
-    </Page>
-  </div>
+  <div></div>
 </template>
 
 <script>
